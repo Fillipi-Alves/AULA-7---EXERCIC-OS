@@ -1,0 +1,56 @@
+
+# nome=input('Digite seu nome:')
+# idade =int(input('Digite sua idade:'))
+# print('Olá',nome,'voce tem',idade,'anos')
+
+# lista = [1,2,34,'a', True, 2.5]
+# dados_usuarios = []
+
+
+
+# nome = input("Digite seu nome")
+# idade = int(input("Digite sua idade"))
+
+
+# dados_usuarios,append(nome) # posso aadicionar apenas um dado(12) # posso aadicionar apenas um dado
+# dados_usuarios,append(idade)
+
+# # dados_usuarios.extend([nome,idade]) quantos dados vc quiser
+
+# # dados([nome,idade]) quantos dados vc quiser
+# lista.extend([10]) # quantos dados vc  quiser
+
+# lista += (5454,454,5656,654) # quantos dados vc quiser
+
+# print(lista)
+
+# import random
+
+# print("Advinhe o numero")
+# numero = random.randint(1,10)
+# numero_digitado = int(input("Digite um numero"))
+# condição = (numero_digitado == numero)
+# print("Acertou", condição)
+
+
+# senha = 132
+# senha=digitada = input("Digite sua senha:")
+# condição = senha == senha_digitada
+lista=[1,2,3,4,5,6,7,8,9,10]
+lista_idade= []
+lista_nome=[]
+lista_dados=[]
+for numeros in range(1,4):
+  nome = input('Digite seu nome: ')
+  idade = input('Digite sua idade: ')
+  CPF = input('Digite seu CPF:')
+  #  lista_nome.append(nome) -----> NÃO É NECESSARIO USAR POIS O += OU .extend JÁ INCLUI TODOS OS DADOS 
+  #                                ^    
+  #  lista_idade.append(idade)-----/
+  
+  lista_dados+=(nome,idade,CPF)
+
+print(lista_dados)
+print(lista_idade)
+print(lista_nome)
+
